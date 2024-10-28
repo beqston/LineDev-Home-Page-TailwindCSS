@@ -4,7 +4,33 @@
     box-sizing: border-box;
 }
 
-
 .slick-next, .slick-prev{
     border-radius: 50%;
+}
+#email{
+    display: flex;
+    width: 330px;
+    font-size: 14px;
+    padding: 12px;
+}
+
+#email::placeholder{
+    padding: 12px;
+    font-size: 14px;
+}
+
+#panel1-header{
+    background: linear-gradient(90deg, #2662D6 0%, #2F847F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+
+}
+
+#acor{
+    background: linear-gradient(0deg, #2662D6 21.74%, #3DB8B1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    padding-bottom: 8px;
 }

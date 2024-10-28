@@ -7,7 +7,7 @@ export default function AccordionUsage() {
   return (
     <div className='w-[74%] m-auto mb-[237px]'>
 
-      <h2 className='text-[#2662D6] font-black text-[36px] leading-10 mb-[30px] text-center'>ხშირად დასმული შეკითხვები</h2>
+      <h2 id='acor' className='text-[#2662D6] font-black text-[36px] leading-10 mb-[30px] text-center'>ხშირად დასმული შეკითხვები</h2>
 
       <Accordion>
         <AccordionSummary

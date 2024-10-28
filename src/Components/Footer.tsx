@@ -1,13 +1,22 @@
-import facebook from "./assets/Photos/Footer/facebook.png"
-import youtube from "./assets/Photos/Footer/youtube.png"
-import instagram from "./assets/Photos/Footer/youtube.png"
-import tiktok from "./assets/Photos/Footer/tiktok.png"
+import facebook from "../assets/Photos/Footer/facebook.png"
+import youtube from "../assets/Photos/Footer/youtube.png"
+import instagram from "../assets/Photos/Footer/youtube.png"
+import tiktok from "../assets/Photos/Footer/tiktok.png"
+import { ContactUs } from "./Emailjs"
 
 const Footer = ()=>{
     return(
         <footer className="w-full h-[304px] bg-gradient-to-r from-[#2662D6] from-10% via-sky-500 via-30% to-[#3DB8B1] to-100% flex justify-around px-[4vw] relative">
 
-            <div className="absolute">
+            <div className="w-[58%] h-[144px] top-[-72px] backdrop-blur-sm rounded-[30px] bg-[#E9EBEFCC] flex absolute justify-center items-center">
+
+                <h3  className="w-[140px] text-[24px] leading-[28px] mr-[72px]">
+                    არ ჩამორჩე სიახლეებს
+                </h3>
+              
+
+                <ContactUs />
+
 
             </div>
 

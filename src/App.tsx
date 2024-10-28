@@ -6,6 +6,8 @@ import Education from './Components/Education'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Carousel from './Components/Carousel'
+import AccordionUsage from './Components/Acordion'
+import Footer from './Footer'
 
 function App() {
 
@@ -16,9 +18,9 @@ function App() {
       <Education />
       <HeadCarousel />
       <Carousel/>
-
       <Courses />
-      <Acordion />
+      <AccordionUsage />
+      <Footer />
 
     </>
   )

@@ -12,7 +12,7 @@ const Courses = ()=> {
                 <h2 className="text-[#2763D6] text-[36px] w-[30%] h-[46px] font-black  flex justify-center items-center ">კურსები</h2>
 
                 <div className="w-[70%] h-[63px] bg-gradient-to-r from-[#2662D6] from-10% via-sky-500 via-30% to-[#3DB8B1] to-100%  rounded-tr-[30px] z-20 relative">
-                    <div className="absolute h-[48px] rotate-[-45deg] z-10 w-[90px] left-[-28px] bottom-[24px] bg-white"></div>
+                    <div className="absolute h-[48px] rotate-[-45deg] z-10 w-[90px] left-[-30px] bottom-[24px] bg-white"></div>
                 </div>
             </div>
             
